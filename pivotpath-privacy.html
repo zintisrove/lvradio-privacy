@@ -64,7 +64,8 @@
 
   <div class="notice">
     Pivot Path has no user accounts. Your game progress and preferences stay on your device. The game uses Google
-    AdMob to display occasional full-screen advertisements between levels.
+    AdMob to display occasional full-screen advertisements between levels. Optional usage analytics and crash
+    reporting are off by default and can be enabled separately in the game settings.
   </div>
 
   <h2>Who we are</h2>
@@ -75,10 +76,10 @@
 
   <h2>Information stored on your device</h2>
   <p>
-    Level progress, best results, attempts, game settings, advertising consent choices and the time and progress
-    counters used to limit advertising frequency are stored locally on your device. We do not upload your game
-    progress or settings to our servers. You can remove this information by clearing the app’s data or uninstalling
-    the app.
+    Level progress, best results, attempts, game settings (including analytics and crash-reporting choices),
+    advertising consent choices and the time and progress counters used to limit advertising frequency are stored
+    locally on your device. We do not upload your saved game progress or settings to our servers. You can remove this
+    information by clearing the app’s data or uninstalling the app.
   </p>
 
   <h2>Advertising and your privacy choices</h2>
@@ -96,20 +97,43 @@
     also reset or delete the Android advertising ID in your device’s privacy settings.
   </p>
 
+  <h2>Optional usage analytics and crash reporting</h2>
+  <p>
+    Pivot Path includes Google Firebase Analytics and Firebase Crashlytics. Both services are disabled by default.
+    You can enable or disable them independently at any time under <strong>Settings → Privacy &amp; data</strong>.
+  </p>
+  <p>
+    If you enable <strong>Usage analytics</strong>, Firebase Analytics processes pseudonymous gameplay events such as
+    level selection, level starts, completion results, failure reasons and the number of placed pieces, together with
+    general app and device information and a Firebase app-instance identifier. This helps us understand difficulty and
+    improve the game. Pivot Path disables advertising-ID collection and ad-personalisation signals for Firebase
+    Analytics, and does not send names, email addresses or saved game progress.
+  </p>
+  <p>
+    If you enable <strong>Crash reports</strong>, Firebase Crashlytics may process crash stack traces, diagnostic logs,
+    app version, device model, operating-system information, installation identifiers and the current level or game
+    phase. This helps us diagnose unexpected app failures. Ordinary failed level attempts are recorded only as
+    diagnostic context and are not reported as software crashes. Google describes its processing in the
+    <a href="https://firebase.google.com/support/privacy">Firebase Privacy and Security documentation</a> and the
+    <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.
+  </p>
+
   <h2>Purposes and legal basis</h2>
   <p>
-    We process the limited technical data described above to operate and secure the game, prevent advertising fraud,
-    measure advertising performance and fund continued development. Where applicable, processing is based on your
-    consent and our legitimate interests in operating a secure, sustainable game. We do not sell personal information.
+    We process the limited technical data described above to operate and secure the game, diagnose crashes, improve
+    level design, prevent advertising fraud, measure advertising performance and fund continued development. Optional
+    Analytics and Crashlytics processing is based on your choice in the game settings. Where applicable, other
+    processing is based on your consent and our legitimate interests in operating a secure, sustainable game. We do
+    not sell personal information.
   </p>
 
   <h2>Retention and deletion</h2>
   <p>
-    Local game data and applicable consent choices remain until you remove or reset them. Advertising data is retained
-    according to the settings and policies of Google AdMob and only for as long as reasonably necessary for the
-    purposes described above, subject to security and legal requirements. You may contact us to request access,
-    correction, restriction, objection or deletion of data associated with you. Because Pivot Path has no accounts,
-    we may not always be able to link pseudonymous advertising records to a person.
+    Local game data and applicable consent choices remain until you remove or reset them. Advertising, Analytics and
+    Crashlytics data is retained according to the settings and policies of the applicable Google service and only for
+    as long as reasonably necessary for the purposes described above, subject to security and legal requirements. You
+    may contact us to request access, correction, restriction, objection or deletion of data associated with you.
+    Because Pivot Path has no accounts, we may not always be able to link pseudonymous records to a person.
   </p>
 
   <h2>Children</h2>
@@ -121,9 +145,9 @@
 
   <h2>International processing and security</h2>
   <p>
-    Google and its advertising partners may process data outside your country. Appropriate contractual and technical
-    safeguards apply where required. We use reasonable measures to protect information, but no internet transmission
-    or storage method can be guaranteed completely secure.
+    Google and its service providers or advertising partners may process data outside your country. Appropriate
+    contractual and technical safeguards apply where required. We use reasonable measures to protect information, but
+    no internet transmission or storage method can be guaranteed completely secure.
   </p>
 
   <h2>Changes</h2>
