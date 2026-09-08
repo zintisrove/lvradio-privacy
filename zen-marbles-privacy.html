@@ -22,6 +22,8 @@
     .eyebrow { color: #d8c98f; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
     .updated, footer { color: #c8c7b8; }
     .notice { margin: 2rem 0; padding: 1rem 1.25rem; border: 1px solid #6c704d; border-radius: 1rem; background: #203125; }
+    nav { display: flex; flex-wrap: wrap; gap: .75rem 1.25rem; margin: 1.5rem 0 2.5rem; }
+    nav a { font-weight: 700; }
     li + li { margin-top: .5rem; }
     footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid #415040; }
   </style>
@@ -31,6 +33,11 @@
   <p class="eyebrow">Zintis Apps</p>
   <h1>Zen Marbles Privacy Policy</h1>
   <p class="updated">Effective and last updated: 8 September 2026</p>
+  <nav aria-label="Legal pages">
+    <a href="zen-marbles-legal.html">Support</a>
+    <a href="zen-marbles-privacy.html" aria-current="page">Privacy Policy</a>
+    <a href="zen-marbles-terms.html">Terms of Use</a>
+  </nav>
 
   <div class="notice">
     Zen Marbles has no user accounts and no first-party server. Game progress, scores and preferences stay on your
@@ -112,6 +119,7 @@
 
   <footer>
     <p>Zen Marbles for Android · Package name: <code>com.zenmarbles</code></p>
+    <p><a href="zen-marbles-terms.html">Terms of Use</a> · <a href="mailto:zintis.rove@gmail.com">Contact</a></p>
   </footer>
 </main>
 </body>
