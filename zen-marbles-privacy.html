@@ -32,7 +32,7 @@
 <main>
   <p class="eyebrow">Zintis Apps</p>
   <h1>Zen Marbles Privacy Policy</h1>
-  <p class="updated">Effective and last updated: 8 September 2026</p>
+  <p class="updated">Effective and last updated: 9 September 2026</p>
   <nav aria-label="Legal pages">
     <a href="zen-marbles-legal.html">Support</a>
     <a href="zen-marbles-privacy.html" aria-current="page">Privacy Policy</a>
@@ -41,7 +41,8 @@
 
   <div class="notice">
     Zen Marbles has no user accounts and no first-party server. Game progress, scores and preferences stay on your
-    device. The game uses Google AdMob for occasional advertisements and Google Play for an optional in-app review.
+    device. Optional Firebase diagnostics help us understand level completion and fix crashes. The game also uses
+    Google AdMob for occasional advertisements and Google Play for an optional in-app review.
   </div>
 
   <h2>Who we are</h2>
@@ -81,18 +82,35 @@
     decides whether the interface appears. We do not receive the text or rating you submit through Google Play.
   </p>
 
+  <h2>Optional analytics and crash diagnostics</h2>
+  <p>
+    If you turn on <strong>Settings → Share Diagnostics</strong>, Zen Marbles uses Google Firebase Analytics to
+    measure structured gameplay events such as Journey level starts and completions, move and rating totals, and
+    aggregate Find Balance turns and scores. We do not send player names, email addresses, free-form text, run seeds,
+    Daily date keys, advertising identifiers, or a developer-defined user ID with these events.
+  </p>
+  <p>
+    The same optional setting enables Firebase Crashlytics. When a crash, native crash or supported app-not-responding
+    event occurs, Crashlytics may process stack traces, relevant app state, device model and operating-system metadata,
+    Firebase and Crashlytics installation identifiers, and compact game context such as the current mode, level, board
+    size, move count, turn and score. Google states that Crashlytics retains crash stack traces and associated
+    identifiers for 90 days before beginning deletion. You can stop future Analytics and Crashlytics collection at any
+    time by turning Share Diagnostics off. This choice is separate from advertising privacy choices.
+  </p>
+
   <h2>Purposes and legal basis</h2>
   <p>
-    The limited technical information described above is processed to operate and secure the game, prevent
-    advertising fraud, measure advertising performance and fund continued development. Where applicable, processing
-    is based on your consent and on legitimate interests in operating a secure and sustainable game. We do not sell
-    personal information.
+    The limited technical information described above is processed to operate and secure the game, understand game
+    progress, diagnose crashes, prevent advertising fraud, measure advertising performance and fund continued
+    development. Optional Firebase collection is based on your consent through Share Diagnostics. Other processing is
+    based on consent where required and on legitimate interests in operating a secure and sustainable game. We do not
+    sell personal information.
   </p>
 
   <h2>Retention, deletion and your rights</h2>
   <p>
-    Local game data and applicable consent choices remain until you remove or reset them. Google retains advertising
-    and Play data according to its service settings and policies and applicable legal requirements. You may contact
+    Local game data and applicable consent choices remain until you remove or reset them. Google retains advertising,
+    Firebase and Play data according to its service settings and policies and applicable legal requirements. You may contact
     us to request access, correction, restriction, objection or deletion of information associated with you. Because
     Zen Marbles has no accounts, we may not be able to link pseudonymous records to a particular person.
   </p>
