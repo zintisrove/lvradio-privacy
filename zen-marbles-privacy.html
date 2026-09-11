@@ -32,7 +32,7 @@
 <main>
   <p class="eyebrow">Zintis Apps</p>
   <h1>Zen Marbles Privacy Policy</h1>
-  <p class="updated">Effective and last updated: 9 September 2026</p>
+  <p class="updated">Effective and last updated: 11 September 2026</p>
   <nav aria-label="Legal pages">
     <a href="zen-marbles-legal.html">Support</a>
     <a href="zen-marbles-privacy.html" aria-current="page">Privacy Policy</a>
@@ -84,25 +84,31 @@
 
   <h2>Optional analytics and crash diagnostics</h2>
   <p>
-    If you turn on <strong>Settings → Share Diagnostics</strong>, Zen Marbles uses Google Firebase Analytics to
-    measure structured gameplay events such as Journey level starts and completions, move and rating totals, and
-    aggregate Find Balance turns and scores. We do not send player names, email addresses, free-form text, run seeds,
+    If you allow analytics on the welcome screen or turn on <strong>Settings → Share Analytics</strong>, Zen Marbles
+    uses Google Firebase Analytics to measure app launches, sessions, returning play, tutorial progress, Journey
+    level starts, completions and exits, move and rating totals, aggregate Find Balance turns and scores, and ad
+    opportunities, displays, errors and rewards. The AdMob integration can also report ad impressions and revenue.
+    Firebase processes app-instance identifiers and app/device information to measure usage over time.
+    We do not send player names, email addresses, free-form text, run seeds,
     Daily date keys, advertising identifiers, or a developer-defined user ID with these events.
   </p>
   <p>
-    The same optional setting enables Firebase Crashlytics. When a crash, native crash or supported app-not-responding
+    The separate optional <strong>Settings → Crash Reports</strong> setting enables Firebase Crashlytics.
+    When a crash, native crash or supported app-not-responding
     event occurs, Crashlytics may process stack traces, relevant app state, device model and operating-system metadata,
     Firebase and Crashlytics installation identifiers, and compact game context such as the current mode, level, board
     size, move count, turn and score. Google states that Crashlytics retains crash stack traces and associated
-    identifiers for 90 days before beginning deletion. You can stop future Analytics and Crashlytics collection at any
-    time by turning Share Diagnostics off. This choice is separate from advertising privacy choices.
+    identifiers for 90 days before beginning deletion. You can stop future collection at any time by turning off
+    Share Analytics and/or Crash Reports. Neither setting grants advertising consent. New installations start with
+    both disabled. Upgrades preserve the choice previously made with Share Diagnostics; the two settings can then
+    be changed independently. Versions before 1.0.2 use the combined Share Diagnostics control.
   </p>
 
   <h2>Purposes and legal basis</h2>
   <p>
     The limited technical information described above is processed to operate and secure the game, understand game
     progress, diagnose crashes, prevent advertising fraud, measure advertising performance and fund continued
-    development. Optional Firebase collection is based on your consent through Share Diagnostics. Other processing is
+    development. Optional Firebase collection is based on your analytics and crash-report choices. Other processing is
     based on consent where required and on legitimate interests in operating a secure and sustainable game. We do not
     sell personal information.
   </p>
