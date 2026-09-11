@@ -41,7 +41,8 @@
 
   <div class="notice">
     Zen Marbles has no user accounts and no first-party server. Game progress, scores and preferences stay on your
-    device. Optional Firebase diagnostics help us understand level completion and fix crashes. The game also uses
+    device. Optional Firebase Analytics helps us understand level completion, while technical Crashlytics diagnostics
+    help us fix crashes. The game also uses
     Google AdMob for occasional advertisements and Google Play for an optional in-app review.
   </div>
 
@@ -82,7 +83,7 @@
     decides whether the interface appears. We do not receive the text or rating you submit through Google Play.
   </p>
 
-  <h2>Optional analytics and crash diagnostics</h2>
+  <h2>Optional analytics and technical crash diagnostics</h2>
   <p>
     If you allow analytics on the welcome screen or turn on <strong>Settings → Share Analytics</strong>, Zen Marbles
     uses Google Firebase Analytics to measure app launches, sessions, returning play, tutorial progress, Journey
@@ -93,24 +94,25 @@
     Daily date keys, advertising identifiers, or a developer-defined user ID with these events.
   </p>
   <p>
-    The separate optional <strong>Settings → Crash Reports</strong> setting enables Firebase Crashlytics.
+    Zen Marbles uses Firebase Crashlytics for technical stability diagnostics.
     When a crash, native crash or supported app-not-responding
     event occurs, Crashlytics may process stack traces, relevant app state, device model and operating-system metadata,
     Firebase and Crashlytics installation identifiers, and compact game context such as the current mode, level, board
     size, move count, turn and score. Google states that Crashlytics retains crash stack traces and associated
-    identifiers for 90 days before beginning deletion. You can stop future collection at any time by turning off
-    Share Analytics and/or Crash Reports. Neither setting grants advertising consent. New installations start with
-    both disabled. Upgrades preserve the choice previously made with Share Diagnostics; the two settings can then
-    be changed independently. Versions before 1.0.2 use the combined Share Diagnostics control.
+    identifiers for 90 days before beginning deletion. Crash reporting remains active independently of Share Analytics.
+    Turning off Share Analytics stops gameplay and ad-funnel analytics but does not disable technical crash reports.
+    Neither service grants advertising consent. New installations start with Analytics disabled. A legacy
+    Share Diagnostics ON choice enables Analytics after upgrade; an older default-OFF value remains disabled and the
+    player receives the new Analytics choice once. Versions before 1.0.2 use the combined Share Diagnostics control.
   </p>
 
   <h2>Purposes and legal basis</h2>
   <p>
     The limited technical information described above is processed to operate and secure the game, understand game
     progress, diagnose crashes, prevent advertising fraud, measure advertising performance and fund continued
-    development. Optional Firebase collection is based on your analytics and crash-report choices. Other processing is
-    based on consent where required and on legitimate interests in operating a secure and sustainable game. We do not
-    sell personal information.
+    development. Optional Firebase Analytics is based on your choice. Technical Crashlytics diagnostics and other
+    necessary processing are based on legitimate interests in operating a stable, secure and sustainable game, while
+    consent is used where required. We do not sell personal information.
   </p>
 
   <h2>Retention, deletion and your rights</h2>
